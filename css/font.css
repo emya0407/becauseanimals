@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Gilroy-UltraLight';
+	src: url('../font/Gilroy-UltraLight.eot') format('embedded-opentype'),
+		url('../font/Gilroy-UltraLight.woff') format('woff'),
+		url('../font/Gilroy-UltraLight.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+/*Radial*/
+
+@font-face {
+	font-family: 'Radial';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../font/Radial-Regular.eot') format('eot'),
+		 url('../font/Radial-Regular.woff') format('woff'),
+		 url('../font/Radial-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Radial';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('../font/Radial-Bold.eot') format('eot'),
+		 url('../font/Radial-Bold.woff') format('woff'),
+		 url('../font/Radial-Bold.woff2') format('woff2');

@@ -1,0 +1,115 @@
+/* 추가코드 시 */
+
+.swiper-container{
+  width: 100%;
+}
+.swiper-wrapper {
+  width: 500px;  /* 50% */
+  /* border: 1px solid yellow */
+}
+.swiper-slide {
+  text-align: center;
+  /* border: 1px solid blue; */
+  background: #f3f3f3;
+  width: auto;
+}
+.slide-image {
+  height: 420px;
+  width: auto;
+}
+.my-gallery figure {
+  margin: 0px;
+}
+
+/* 추가코드 끝 */
+
+.swiper-container {
+  width: 100%;
+  height: 420; /* 100% */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f3f3f3;
+  padding: 0 80px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+/*------------------blog slider banner 두번째 배너 슬라이더---------------------*/
+#content .swiper-container{
+  width: 100%;
+}
+#content .swiper-wrapper {
+  width: 500px;  /* 50% */
+  /* border: 1px solid yellow */
+}
+#content .swiper-slide {
+  text-align: center;
+  /* border: 1px solid blue; */
+  background: #f3f3f3;
+  width: auto;
+}
+#content .slide-image {
+  height: 420px;
+  width: auto;
+}
+
+#content .swiper-container {
+  width: 100%;
+  height: 420; /* 100% */
+}
+
+#content .swiper-slide {
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  background: #fff9cf;
+  padding: 0 80px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#content .swiper-slide img {
+  display: block;
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
